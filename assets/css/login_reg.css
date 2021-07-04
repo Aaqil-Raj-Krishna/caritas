@@ -6,8 +6,6 @@
 
 body{
 	font-family: 'Baloo Bhai 2', cursive;
-	background-color: #FFFEF7;
-	
 }
 
 header {
@@ -94,7 +92,7 @@ nav.main-navigation ul li:hover{
 	position: absolute;
 	width: 110px;
 	height: 100%;
-	background: linear-gradient(to right, #ff105f, #ffad06);
+	background: rgba(255, 43, 74, 1);
 	border-radius: 30px;
 	transition: .5s;
 }
@@ -131,7 +129,7 @@ nav.main-navigation ul li:hover{
 	padding: 10px 30px;
 	display: block;
 	margin: auto;
-	background: linear-gradient(to right, #ff105f, #ffad06);
+	background: rgba(255, 43, 74, 1);
 	border-radius: 30px;
 	border: 0;
 }
