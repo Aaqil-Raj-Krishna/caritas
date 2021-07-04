@@ -160,12 +160,8 @@ div.socials {
   padding: 0px 10px;
 }
 
-.social-buttons {
-  display: inline-block;
-  background: rgba(256, 256, 256, 0.5);
-  border-radius: 10px;
+.socials {
   padding: 17px 0px 8px 80px;
-  box-shadow: 0px 0px 32px -7px #00199f; /*Ye change karneka*/
 }
 
 /* Helper class to divide the icons */
@@ -181,8 +177,6 @@ a:active {
 }
 .social-icon {
   margin-bottom: 15px;
-  /* -moz-border-radius: 138px;
-  -webkit-border-radius: 138px; */ /*Inn dono ka use kya he ? XD*/
   border-radius: 138px;
   border: 8px solid;
   text-align: center;
@@ -242,7 +236,7 @@ a:active {
   color: #bb0000;
 }
 
-/* Soundcloud Button Styling */
+/* Instagram Button Styling */
 .instagram {
   font-size: 30px;
   padding-top: 10px;
