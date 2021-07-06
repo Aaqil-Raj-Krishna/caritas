@@ -76,6 +76,21 @@ nav.main-navigation ul li:hover{
 	background-color: rgb(233, 231, 231);
 }
 
+button.login {
+	padding: 9px 25px;
+	background-color: rgba(255, 43, 74, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	/* color: white; */
+	font-weight: 50;
+}
+
+button.login:hover {
+	background-color: rgba(255, 43, 74, 0.8);
+}
+
 .container {
 	display: grid;
 	margin: 4%;
@@ -163,4 +178,57 @@ button.block:hover {
 	width: calc(var(--width, 0) * 1%);
 	min-width: 5%;
 	max-width: 100%;
+}
+
+div.start-fundraiser {
+	padding: 48px 45px;
+	display: inline-block;
+	background-color: rgba(0, 181, 195, 1);
+	width: 100%;
+	margin: 30px 0px;
+	/* border: 2px solid red; */
+	border-radius: 50px;
+}
+
+.start-fundraiser span {
+	display: block;
+	color: white;
+	font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	border: 0;
+	border-radius: 30px;
+}
+
+.start-fundraiser p {
+	display: block;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.start-fundraiser a {
+	display: block;
+	text-align: center;
+}
+
+.start-fundraiser button {
+	margin: 0 auto;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid white;
+	outline: none;
+	cursor: pointer;
+	color: white;
+	background-color: rgba(0, 181, 195, 1.0);
+	padding: 10px 15px;
+	border-radius: 15px;
+}
+
+.start-fundraiser button:hover {
+	background-color: rgb(77, 180, 187);
 }
