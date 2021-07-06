@@ -19,6 +19,14 @@ hr {
 	border-bottom: none;
 }
 
+h2 {
+	text-align: center;
+	color: #0C4271;
+	margin: 50px;
+	font-size: 50px;
+	font-weight: 500;
+}
+
 img.logo {
 	height: 50px;
 }
@@ -88,7 +96,7 @@ button.login {
 	border-radius: 50px;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
-	/* color: white; */
+	color: white;
 	font-weight: 50;
 }
 
@@ -96,157 +104,140 @@ button.login:hover {
 	background-color: rgba(255, 43, 74, 0.8);
 }
 
-div.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 20px;
+div.intro{
+	display: grid;
+	margin: 85px 50px;
+	grid-template-columns: 45fr 55fr;
 }
 
-div.container div {
-  padding: 10px;
-  margin: 10px;
+div.content p{
+	color: #0C4271;
+	font-size: 35px;
+	font-weight: 700;
 }
 
-div.title,
-div.location,
-div.socials,
-div.newsletter {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  font-size: 40px;
-  text-align: center;
+div.content span{
+	color: rgb(160, 160, 160);
+	font-size: 25px;
+	font-weight: 550;
+	display: block;
+	margin-top: 10px;
 }
 
-div.content {
-  font-size: 30px;
+div.content button{
+	margin-top: 50px;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	background-color: rgba(255, 43, 74);
+	color: white;
+	padding: 7px 20px;
+	border-radius: 30px;
+	font-size: 30px;
+	font-weight: bold;
 }
 
-div.image img {
-  width: 100%;
-  height: 400px;
+div.content button:hover{
+	background-color: rgba(255, 43, 74,0.8);
 }
 
-iframe {
-  display: inline-block;
-  width: 100%;
-  height: 500px;
+div.intro img {
+	width: 100%;
 }
 
-.input {
-  width: 100%;
-  padding: 30px 100px 30px 60px;
-  font-size: 16px;
+div.stats {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background-color: #00b5c3;
 }
 
-.button {
-  margin: 12px 0px 0px -200px;
-  margin-right: 10px;
-  position: absolute;
-  padding: 15px 30px;
-  background-color: red;
-  border-radius: 10px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
+div.stats div{
+	margin: 0 10px;
+	padding: 40px 0;
 }
 
-div.socials {
-  padding-top: 30px;
+div.stats {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
-.icons {
-  text-align: center;
-  margin: 0 20px;
-  padding: 0px 10px;
+div.stats span {
+	display: block;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-weight: 600;
 }
 
-.socials {
-  padding: 17px 0px 8px 80px;
+div.stats p {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
 }
 
-/* Helper class to divide the icons */
-.social-margin {
-  margin: 0px 50px;
+div.work {
+	display: grid;
+	grid-template-columns:  1fr 1fr 1fr 1fr;
+	margin:  0 40px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-}
-.social-icon {
-  margin-bottom: 15px;
-  border-radius: 138px;
-  border: 8px solid;
-  text-align: center;
-  width: 70px;
-  height: 70px;
-  display: inline-block;
-  line-height: 1px;
-  padding-top: 11px;
-  transition: all 0.5s;
+div.work-box {
+	box-shadow: 0 0 10px rgb(206, 203, 203);
+	padding: 30px 20px;
+	margin: 0px 20px;
+	margin-bottom: 40px;
+	text-align: center;
+	border: 2px solid #fff;
 }
 
-.social-icon:hover {
-  transform: rotate(360deg) scale(1.3);
+div.work-box:hover {
+	border: 2px solid #00b5c3;
 }
 
-/* Facebook Button Styling */
-.facebook {
-  font-size: 30px;
-  padding-top: 10px;
-  border-color: #3b5998;
-  background-color: #3b5998;
-  color: #ffffff;
+div.work-box img {
+	height: 50px;
+	margin-bottom: 20px;
 }
 
-.facebook:hover {
-  background-color: #ffffff;
-  color: #3b5998;
+div.work-box p{
+	text-align: center;
+	font-size: 17px;
+	color: #0C4271;
+	height: 200px;
 }
 
-/* Twitter Button Styling */
-.twitter {
-  font-size: 30px;
-  padding-top: 10px;
-  padding-left: 2px;
-  border-color: #55acee;
-  background-color: #55acee;
-  color: #ffffff;
+div.work-box span{
+	text-align: center;
+	display: block;
+	color: #0C4271;
+	font-size: 20px;
+	font-weight: 600;
 }
 
-.twitter:hover {
-  background-color: #ffffff;
-  color: #55acee;
+div.partners h2{
+	margin-bottom: 20px;
 }
 
-/* Youtube Button Styling */
-.youtube {
-  font-size: 30px;
-  padding-top: 10px;
-  padding-left: 0px;
-  background-color: #bb0000;
-  color: #ffffff;
-  border-color: #bb0000;
+div.partners p {
+	margin: 0 10%;
+	text-align: center;
+	font-size: 20px;
+	color: #0C4271;
+	margin-bottom: 40px;
 }
 
-.youtube :hover {
-  background-color: #ffffff;
-  color: #bb0000;
+div.partners span {
+	font-weight: 600;
 }
 
-/* Instagram Button Styling */
-.instagram {
-  font-size: 30px;
-  padding-top: 10px;
-  padding-left: 0px;
-  background-color: #aa31a7;
-  color: #ffffff;
-  border-color: #aa31a7;
+div.partners-image {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 30%;
 }
 
-.instagram :hover {
-  background-color: #ffffff;
-  color: #aa31a7;
+div.partners-image img {
+	height: 45px;
 }
