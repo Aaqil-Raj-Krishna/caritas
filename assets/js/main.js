@@ -9,7 +9,7 @@ function clicked() {
 
 function subscribed() {
   //submit form or whatever
-  n = document.getElementsByClassName("Subscribe");
+  n = document.getElementsByClassName("subscribe");
   n1 = document.getElementsByClassName("btn");
   n[0].innerText = "You have successfully Subscribed :)";
   n1[0].innerText = "Subscribed";

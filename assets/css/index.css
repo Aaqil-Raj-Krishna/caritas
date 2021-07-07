@@ -241,3 +241,56 @@ div.partners-image {
 div.partners-image img {
 	height: 45px;
 }
+
+div.location {
+	margin: 0 50px;
+}
+
+div.newsletter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2.newsletter{
+	font-size: 25px;
+	font-weight: 600;
+	margin-top: 100px;
+	margin-bottom: 45px;
+}
+
+div.newsletter input {
+  height: 30px;
+  width: 400px;
+	padding: 20px;
+  border: 0;
+  outline: none;
+  background-color: #e6e5e1;
+  font-size: 13px;
+	margin-right: 0px;
+}
+
+div.newsletter button {
+	background-color: #6292af;
+	border: 0;
+	outline: none;
+	color: white;
+	height: 40px;
+	padding: 0 30px;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+div.newsletter button:hover {
+	background-color: #96b3c5;
+}
+
+p.subscribe {
+	margin-top: 30px;
+	text-align: center;
+  font-size: 25px;
+	font-weight: 500;
+	color: #0C4271;
+}
