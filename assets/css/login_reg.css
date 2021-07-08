@@ -123,13 +123,14 @@ nav.main-navigation ul li:hover{
 }
 
 .submit-btn {
+	background-color: rgba(255, 43, 74);
+	cursor: pointer;
+	text-align: center;
 	width: 85%;
-	padding: 10px 30px;
+	padding: 5px 30px;
 	display: block;
 	margin: auto;
-	background: rgba(255, 43, 74, 1);
 	border-radius: 30px;
-	border: 0;
 }
 
 .check-box {
@@ -139,7 +140,7 @@ nav.main-navigation ul li:hover{
 span {
 	color: #777;
 	font-size: 12px;
-	bottom: 61px;
+	bottom: 62px;
 	position: absolute;
 }
 
