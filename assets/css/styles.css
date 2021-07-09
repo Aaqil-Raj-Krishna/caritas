@@ -99,6 +99,10 @@ nav.main-navigation ul li:hover{
 	background-color: rgb(233, 231, 231);
 }
 
+#login1:hover {
+	background-color: #FFF;
+}
+
 ul.sub-navigation {
 	display: flex;
 	width: 80%;
@@ -141,8 +145,8 @@ button.login {
 	border-radius: 50px;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
-	/* color: white; */
-	font-weight: 50;
+	color: white;
+	font-weight: 700;
 }
 
 button.login:hover {
@@ -156,6 +160,8 @@ button.donate-button {
 	border-radius: 10px;
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
+	color: white;
+	font-weight: 700;
 }
 
 button.donate-button:hover {
