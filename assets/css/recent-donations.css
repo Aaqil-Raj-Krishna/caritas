@@ -1,7 +1,114 @@
 body {
-  margin-top: 20px;
+	font-family: 'Baloo Bhai 2', cursive !important;
+	background-color: #FFF !important;
   color: #ccc;
   background-color: #f1f2f7;
+}
+
+
+a {
+  text-decoration: none !important;
+  color: #0C4271;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+img.logo {
+	height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+nav.main-navigation{
+	display: flex  !important;
+	justify-content: space-between !important;
+	align-items: center !important;
+	padding: 5px !important;
+	margin: 0 20px !important;
+}
+
+nav.main-navigation ul li{
+	display: inline-block !important;
+	padding: 5px !important;
+	border-radius: 13px;
+	margin: 10px 20px !important;
+	cursor: pointer;
+	font-size: 1.9rem !important;
+	font-weight: 500 !important;
+}
+
+nav.main-navigation ul li:hover{
+	background-color: rgb(233, 231, 231) !important;
+}
+
+
+footer {
+  margin: 0;
+  padding: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px 0px ;
+	background-color: rgb(243, 242, 242) ;
+}
+
+footer div {
+	height: 230px;
+}
+
+footer div h3 {
+  margin: 10px 0px;
+  padding: 0;
+	text-transform: uppercase;
+	color: #0C4271;
+	font-size: 20px;
+	cursor: pointer;
+  font-weight: 700 !important;
+}
+
+footer div h3:hover {
+	text-decoration: underline;
+}
+
+footer div ul {
+	list-style: none;
+}
+
+footer div ul li{
+	padding: 4px 0px;
+	font-size: 16px;
+	font-weight: 600;
+	color: rgb(138, 133, 133);
+}
+
+footer div ul li:hover{
+	color: #00b5c3;
+	color: rgba(255, 43, 74,0.8);
+	cursor: pointer;
+}
+
+footer div img {
+	height: 35px;
+	margin-right: 7px;
+	margin-top: 10px;
 }
 
 a,
