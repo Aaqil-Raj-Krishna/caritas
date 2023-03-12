@@ -1,20 +1,31 @@
 
-# Caritas
+# Caritas Fundraising Website
 
-Screens made with raw HTML, CSS and JS for fundraiser app!!
+Caritas is a fundraising website built with HTML, CSS, and Vanilla Javascript. The site allows users to donate to different causes and provides information about the organization's mission and values.
 
-## Screen Views
+## Preview
 
 ![image](https://user-images.githubusercontent.com/75661314/168117489-64d3442e-18af-4c30-9a28-996c24cbee26.png)
 
-![image](https://user-images.githubusercontent.com/75661314/168117847-7326fc77-e224-48b5-a26a-e7b6777e83ac.png)
+## Deployment
 
-![image](https://user-images.githubusercontent.com/75661314/168117945-37b20426-3f64-467d-88e2-73c359306f30.png)
+The deployed site for this project can be found at <https://aaqilrk.github.io/caritas/>.
 
-![image](https://user-images.githubusercontent.com/75661314/168118041-02de2ffb-f5b4-4106-b748-4e0429ae860b.png)
+## Features
 
-![image](https://user-images.githubusercontent.com/75661314/168118181-be35fd14-1742-45cc-888b-b71eb77e8ac4.png)
+- Users can browse different causes and choose to donate to one or more causes.
+- The site provides information about the organization's mission and values.
 
-![image](https://user-images.githubusercontent.com/75661314/168118219-4e571d2b-9a75-46bd-8858-0bd2297b42da.png)
+## Installation
 
-## [Deployed site](https://aaqilrk.github.io/caritas/)
+```bash
+git clone https://github.com/aaqilrk/caritas.git
+cd caritas
+```
+
+## Usage
+
+1. Open the `index.html` file in your web browser.
+1. Browse the different causes and select one or more to donate to.
+1. Enter your donation amount and payment information.
+1. View your donation history and the total amount you have donated.
